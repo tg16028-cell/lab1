@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+
+    <form action="done.html" method="get">
+        <label for="firstname">First Name: </label>
+        <br>
+        <input type="text" id="firstname" placeholder="Enter First Name">
+        <br>
+        <br>
+         <label for="lastname">Last Name: </label>
+        <br>
+        <input type="text" id="lastname" placeholder="Enter Last Name"> 
+        <br>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <br>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            <br>
+        </fieldset>
+        <br>
+        <label for="email">Email Address:</label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="abc@example.com">
+        <br>
+        <br>
+        <label for="password">Create Password:</label>
+        <br>
+        <input type="password" id="password" name="password" placeholder="8-16 Characters required" maxlength="16" minlength="8">
+        <br>
+        <br>
+        <label for="dob">Date of Birth:</label>
+        <br>
+        <input type="date" id="dob" name="dob">
+        <br>
+        <br>
+        <label for="terms and conditions">
+            <input type="checkbox" id="terms" name="terms"> I agree to the Terms and Conditions
+        </label>
+        <br>
+        <br>
+        <label for="submit">
+            <button type="submit" id="submit" value="Register">Register</button>
+        </label>
+    </form>
+</body>
+
+</html>
